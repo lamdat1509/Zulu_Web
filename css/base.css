@@ -1,0 +1,44 @@
+/* btn */
+.button {
+    display: inline-block;
+    font-size: 16px;
+    color: var(--gray-dart);
+    padding: 20px 45px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    line-height: normal;
+    background-color: transparent;
+    transition: all 0.2s linear;
+}
+
+.button--primary {
+    color: white;
+    background-color: #579aff;
+}
+
+.button--outline {
+    border: 1px solid;
+    color: #a5b2c3;
+}
+
+/* block */
+
+.block {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 85px;
+}
+
+.text {
+    font-weight: 300;
+    color: var(--gray);
+    line-height: 1.6;
+}
+
+.text--dark {
+    color: #272e35;
+}
